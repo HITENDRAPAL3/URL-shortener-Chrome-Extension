@@ -1,0 +1,17 @@
+{
+    "name": "⚡Just URL Shortener",
+    "version": "2.1",
+    "description": "Create Tiny URls",
+    "icons": {
+        "256": "logo.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "options_ui":{
+        "page": "options.html",
+        "open_in_tab": false
+    },
+    "manifest_version": 2,
+    "permissions": ["storage"]
+}
